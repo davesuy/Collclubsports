@@ -1,0 +1,82 @@
+.schedule-page .schedule-option-wrapper .select-field,
+.schedule-page .schedule-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.schedule-page .schedule-option-wrapper .link {
+	margin-right: 0px;
+}
+.schedule-page .schedule-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.schedule-page .schedule-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.schedule-wrapper .description{
+	font-size: 1.2em;
+	padding-bottom: 10px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.schedule-wrapper .description span.primary-color {
+	position: absolute;
+	top: 3px;
+	left: 0px;
+}
+
+.schedule-wrapper .schedule-item-wrapper {
+	padding-bottom: 20px
+}
+
+.schedule-wrapper .schedule-item-wrapper .schedule-week-detail {
+	font-weight: bold;
+	font-size:  1.4em;
+	text-transform: uppercase;
+}
+
+.schedule-wrapper .schedule-item-wrapper .schedule-team-name {
+	font-weight: bold;
+	font-size:  1.2em;
+	text-transform: uppercase;
+}
+
+.schedule-wrapper .schedule-team-wrapper {
+	display: inline-block;
+	max-width: 350px;
+}
+
+.schedule-wrapper .schedule-team-wrapper:first-child {
+	padding-right: 30px;
+	min-width: 40%;
+}
+
+.schedule-wrapper .schedule-game-detail {
+	margin-bottom: 10px;
+}
+
+.schedule-wrapper .schedule-team-detail label {
+	font-weight: normal;
+}
+
+.schedule-wrapper .schedule-team-detail a.primary-color {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.schedule-wrapper .no-schedule {
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+}
+
+.schedule-wrapper .warn {
+	color: red;
+}

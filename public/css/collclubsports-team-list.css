@@ -1,0 +1,367 @@
+.team-list-page .team-option-wrapper {
+	padding-left: 120px;
+}
+
+.team-list-page .team-option-wrapper .select-field,
+.team-list-page .team-option-wrapper .form-group  {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.team-list-page .team-option-wrapper .link {
+	margin-right: 0px;
+}
+.team-list-page .team-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.team-list-page .team-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.team-list-page .team-list-item-wrapper {
+	display: inline-block;
+	padding: 10px 10px 10px 110px;
+	position: relative;
+	margin: 10px;
+	max-width: 380px;
+	width: 100%;
+}
+
+.team-list-page .team-detail label{
+	font-weight: normal;
+}
+
+.team-list-page .team-detail label.primary-color{
+	font-weight: bold;
+}
+
+.team-list-page .team-detail a.primary-color{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.team-list-page .team-list-item-wrapper .team-details-wrapper,
+.team-list-page .team-list-item-wrapper .team-logo-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.team-list-page .team-list-item-wrapper .team-logo-wrapper {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.team-list-page .team-list-item-wrapper .team-logo-wrapper .image,
+.team-list-page .team-list-item-wrapper .team-logo-wrapper .no-image {
+	height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    display: block;
+    margin: auto;
+}
+
+.team-list-page .team-list-item-wrapper .team-schoolname {
+	font-weight: bold;
+	font-size:  1.2em;
+	text-transform: uppercase;
+}
+
+.team-list-page .team-list-item-wrapper .team-detail {
+	margin-right: 2px;
+}
+
+.team-list-page .team-list-item-wrapper a.button {
+    width: 125px;
+    display: block;
+    margin: 10px 0px;
+}
+
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper{
+	vertical-align: top;
+	width: 100%;
+	min-width: 200px;
+}
+
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table th,
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table td {
+	text-align: center;
+    padding: 2px 5px;
+}
+
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table th:first-child,
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table td:first-child,
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table th.is-align-left {
+	text-align: left;
+}
+
+.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper table th.has-padding-right {
+	padding-right: 10px;
+}
+
+.collclubsports-component.team-information h5 {
+	padding: 10px;
+	color: #FFF;
+}
+
+.collclubsports-component.team-information .team-item-details {
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.collclubsports-component.team-information .button {
+	margin: 10px 0px 15px;
+	display: inherit;
+	color: #333 !important;
+	font-weight: bold;
+	border-radius: 0;
+	font-family: "Quantico-Bold", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.collclubsports-component.team-information li a {
+	font-weight: bold;
+}
+
+.team-page .team-title-logo-wrapper .team-logo-wrapper,
+.team-page .team-title-logo-wrapper .team-title-wrapper{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px 10px;
+	text-align: center;
+}
+
+.team-page .team-title-logo-wrapper .team-logo-wrapper {
+	width: 125px;
+	overflow: hidden;
+}
+
+.team-page .team-title-logo-wrapper .team-title-wrapper {
+
+}
+
+.team-page .team-title-logo-wrapper .team-logo-wrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.team-page .team-page-detail-wrapper {
+	position: relative;
+	min-height: 370px;
+}
+
+.team-page-detail .team-option-wrapper{
+	padding-left: 50px;
+	margin-top: 20px;
+}
+
+.team-page-detail .team-option-wrapper .team-page-subpage {
+	display:inline-block;
+	width:74%;
+	vertical-align:bottom;
+}
+
+.team-page-detail .team-option-wrapper .select-field {
+	display:inline-block;
+}
+
+.team-page-detail .team-option-wrapper .select-field.show{
+	display:inline-block !important;
+}
+
+.team-page-detail .team-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.team-page .team-page-detail-wrapper .team-page-button-wrapper {
+	width: 60px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 10px;
+}
+
+.team-page .team-page-detail-wrapper .collclubsports-pagination {
+	padding-top: 10px;
+	padding-left: 60px;
+
+}
+
+.team-page .team-social-media {
+	margin: 10px 0px;
+}
+
+.team-page .team-content-wrapper ul{
+	list-style-type: disc;
+	padding-left: 35px;
+}
+
+.team-page  .team-box-items-wrapper > * {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 300px;
+}
+
+.team-page  .team-box-items-wrapper .team-standing-tracker-wrapper {
+	width: 100%;
+	margin-right: 4%;
+}
+
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table th,
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table td {
+	text-align: center;
+    padding: 0 5px;
+}
+
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table th:first-child,
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table td:first-child,
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table th.is-align-left {
+	text-align: left;
+    min-width: 100px;
+    padding-right: 5px;
+}
+
+.team-page .team-page-detail-wrapper .team-standing-tracker-wrapper table th.has-padding-right {
+	padding-right: 10px;
+}
+
+.team-page  .team-box-items-wrapper .team-player-week {
+	width: 100%;
+}
+
+.team-page .team-page-button-wrapper .team-page-button,
+.team-page .team-page-button-wrapper .team-social-media {
+	font-size: 40px;
+	margin: 10px 0;
+    padding: 0 15px;
+	cursor: pointer;
+	display:inline-block;
+	position: relative;
+}
+
+.team-page .team-page-button-wrapper .team-page-button span,
+.team-page .team-page-button-wrapper .team-social-media span {
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.team-page .team-page-button-wrapper .team-social-media.web-icon span {
+	bottom: -15px;
+}
+
+.team-page .team-page-button-wrapper .team-page-button:hover{
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.team-page .team-page-button-wrapper .back-main-button {
+	display: none;
+}
+.team-page .team-page-button-wrapper .back-main-button.show {
+	display: inline-block !important;
+}
+
+.tooltip {
+}
+
+.team-page .team-page-stats-tab .team-stats-table {
+    display: none;
+}
+
+.team-page .team-page-stats-tab .team-stats-table.active {
+	display: block;
+}
+
+.team-page .team-page-stats-tab .collclubsports-component.tab-wrapper {
+	border-top: 1px solid #CCC;
+    padding: 10px 5px;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 10px;
+}
+
+.standing-team-link .image,
+.standing-team-link .no-image {
+	height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+}
+
+.standing-team-link span {
+	float: left;
+    text-decoration: underline;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 700px) {
+	.team-standing-page .team-standing-list-wrapper .team-standing-box-wrapper {
+		display: block;
+		width: 100%;	
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.team-page .team-title-logo-wrapper {
+		text-align: center;
+	}
+
+	.team-page .team-page-detail-wrapper .team-page-button-wrapper {
+		width: inherit;
+		position: relative;
+	}
+
+	.team-page .team-page-detail-wrapper .collclubsports-pagination {
+		padding-left: 0;
+	}
+
+	.team-page  .team-box-items-wrapper{
+		padding: 10px;
+	}
+	.team-page  .team-box-items-wrapper > * {
+		width: 99% !important;
+		margin: 0px;
+		min-width: 0%;
+	}
+
+	.team-page  .team-box-items-wrapper .team-player-week > *{
+		margin: 10px 0px;
+		width: 99%;
+	}
+
+	.team-page .team-social-media {
+		display: inline-block;
+	}
+
+	.team-page .team-page-detail-wrapper .team-page-button-wrapper br {
+		display: none;
+	}
+
+	.team-page .team-page-detail-wrapper .team-page-button-wrapper > * {
+		margin: 0px 10px !important;
+		display: inline-block;
+		vertical-align: top;
+	}
+}

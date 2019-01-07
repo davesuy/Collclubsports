@@ -1,0 +1,98 @@
+.championship-list-page .championship-option-wrapper {
+}
+
+.championship-list-page .championship-option-wrapper .select-field,
+.championship-list-page .championship-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.championship-list-page .championship-option-wrapper .link {
+	margin-right: 0px;
+}
+
+.championship-list-page .championship-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.championship-list-page .championship-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.championship-list-page .championship-list-item-wrapper .championship-name {
+	text-transform: uppercase;
+}
+
+.championship-list-page h3 {
+	border-bottom: 1px solid #CCC;
+	text-transform: uppercase;
+}
+
+.championship-list-page .championship-list-item-wrapper {
+	display: inline-block;
+	padding: 10px 10px 10px 110px;
+	position: relative;
+	margin: 10px;
+	max-width: 380px;
+	width: 100%;
+}
+
+.championship-list-page .team-detail label{
+	font-weight: normal;
+}
+
+.championship-list-page .team-detail label.primary-color{
+	font-weight: bold;
+}
+
+.championship-list-page .team-detail a.primary-color{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.championship-list-page .championship-list-item-wrapper .team-details-wrapper,
+.championship-list-page .championship-list-item-wrapper .team-logo-wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.championship-list-page .championship-list-item-wrapper .team-logo-wrapper {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.championship-list-page .championship-list-item-wrapper .team-logo-wrapper .image,
+.championship-list-page .championship-list-item-wrapper .team-logo-wrapper .no-image {
+	height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    display: block;
+    margin: auto;
+}
+
+.championship-list-page .championship-list-item-wrapper .team-schoolname {
+	font-weight: bold;
+	font-size:  1.2em;
+	text-transform: uppercase;
+}
+
+.championship-list-page .championship-list-item-wrapper .team-detail {
+	margin-right: 2px;
+}
+
+.championship-list-page .championship-list-item-wrapper a.button {
+    width: 125px;
+    display: block;
+    margin: 10px 0px;
+}

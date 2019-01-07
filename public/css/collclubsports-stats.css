@@ -1,0 +1,88 @@
+.stats-page .stats-option-wrapper .select-field,
+.stats-page .stats-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+.stats-page .stats-option-wrapper .link {
+	margin-right: 0px;
+}
+.stats-page .stats-option-wrapper .select-field label {
+	font-weight: normal;
+}
+.stats-page .stats-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.stats-page .tab-wrapper {
+	border-top: 1px solid #CCC;
+    padding: 10px 5px;
+    box-shadow: 0px 1px 1px;
+    margin-bottom: 10px;
+}
+
+.stats-page th.name-header *{
+	margin: 0px 50px;
+}
+
+.stats-page th.matchup-header * {
+	width: 120px;
+	display: block;
+}
+
+.stats-page th.matchup-header .arrow-down,
+.stats-page th.matchup-header .arrow-up,
+.stats-page th.name-header .arrow-down,
+.stats-page th.name-header .arrow-up {
+	margin: 0;
+    vertical-align: top;
+    margin-top: 7px;
+}
+
+.stats-page th.sacf-header a,
+.stats-page th.sacb-header a{
+	display: block;
+	width: 50px;
+}
+
+.collclubsports-component.stats-tracker-box-wrapper .top-stats-item-wrapper {
+	display: none;
+}
+
+.collclubsports-component.stats-tracker-box-wrapper .top-stats-item-wrapper h3{
+	text-align: left;
+	margin: 0px;
+	padding: 10px;
+}
+
+.collclubsports-component.stats-tracker-box-wrapper .box-body-wrapper {
+	height: 300px;
+}
+
+.collclubsports-page-wrapper .tab-wrapper .tab-button-wrapper.game-stats-button-wrapper {
+	text-align: left;
+}
+
+#stats-page.game-stats-wrapper .tab-wrapper {
+	border:	none;
+	box-shadow: none;
+}
+
+#stats-page .stats-table-container{
+	display: none;
+}
+
+#stats-page .stats-table-container.active{
+	display: block;
+}
+
+.stats-tracker-box-wrapper .stats-note {
+	padding: 10px;
+}
+
+.stats-note{
+	padding: 10px 0;
+}

@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.collclubsports-admin-wrapper .form-table .field-label-wrapper{
+	width: 200px;
+	font-weight: bold;
+}
+
+.collclubsports-admin-wrapper .form-table .field-input{
+	width: 100%;
+	max-width: 400px;
+}
+
+.collclubsports-admin-wrapper .form-table .description-wrapper {
+	display: block;
+	font-size: 0.8em;
+	line-height: 2em;
+}
+
+.collclubsports-admin-wrapper .shortcodes input {
+	background: #FFF;
+}

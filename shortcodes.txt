@@ -1,0 +1,27 @@
+shortcodes:
+
+[football-stats type="offensive" season team player sort sorttype]
+[football-stats type="offensive" season team player sort sorttype]
+[football-stats type="offensive-passing" season team player sort sorttype]
+[football-stats type="offensive-rushing" season team player sort sorttype]
+[football-stats type="offensive-receiving" season team player sort sorttype]
+[football-stats type="offensive-fieldgoal" season team player sort sorttype]
+
+[football-stats type="defensive" season team player sort sorttype]
+[football-stats type="defensive-defense" season team player sort sorttype]
+[football-stats type="defensive-intercept" season team player sort sorttype]
+
+[football-stats type="special-team" season team player sort sorttype]
+[football-stats type="special-team-punt-return" season team player sort sorttype]
+[football-stats type="special-team-kick-return" season team player sort sorttype]
+[football-stats type="special-team-punting" season team player sort sorttype]
+
+[player-week type="1" season="" conference="" team="" title=""]
+
+[schedule-conference season="" conference=""]
+
+[stat-tracker season="" conference=""]
+
+[standing]
+
+[game-stats]

@@ -1,0 +1,384 @@
+.collclubsports-page-wrapper .collclubsports-option-wrapper .select-field,
+.collclubsports-page-wrapper .collclubsports-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.collclubsports-page-wrapper label {
+	font-weight: normal;
+	font-size: 1em;
+}
+.collclubsports-page-wrapper .collclubsports-option-wrapper .link {
+	margin-right: 0px;
+}
+.collclubsports-page-wrapper .collclubsports-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.collclubsports-page-wrapper .collclubsports-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.collclubsports-page-wrapper .link {
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.collclubsports-page-wrapper.page-wrapper {
+	width: 100%;
+	position: relative;
+}
+
+.collclubsports-page-wrapper .button,
+.collclubsports-component .button {
+	padding: 6px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.collclubsports-page-wrapper .button.btn-disabled,
+.collclubsports-component .button.btn-disabled {
+	cursor: default;
+	pointer-events: none;
+	background-color: #CCC !important;
+}
+
+.collclubsports-page-wrapper .button.btn-disabled:hover,
+.collclubsports-component .button.btn-disabled:hover {
+	opacity: 0.5;
+	cursor: default;
+	pointer-events: none;
+}
+
+.collclubsports-page-wrapper .button:hover,
+.collclubsports-component .button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.collclubsports-page-wrapper a.button:hover,
+.collclubsports-page-wrapper a.button:focus,
+.collclubsports-component a.button:hover,
+.collclubsports-component a.button:focus {
+	text-decoration: none;
+	border-top: 1px solid;
+}
+
+.collclubsports-page-wrapper .button.accent {
+	color: #fff;
+	padding: 8px;
+}
+
+.collclubsports-page-wrapper .button.accent:hover {
+	color: #fff !important;
+}
+
+.collclubsports-page-wrapper a.button.accent:hover,
+.collclubsports-page-wrapper a.button.accent:focus {
+	color: #FFF;
+}
+
+.collclubsports-page-wrapper .button.folded-corner {
+	position: relative;
+	padding-right: 20px;
+}
+
+.collclubsports-page-wrapper .button.folded-corner:before
+{
+	border-top: solid 7px #fff;
+	border-right: solid 7px #fff;
+	border-left: solid 7px transparent;
+	border-bottom: solid 7px transparent;
+}
+
+.collclubsports-page-wrapper .button.folded-corner:before, 
+.collclubsports-page-wrapper .button.folded-corner:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+}
+
+.collclubsports-page-wrapper .button.folded-corner:after
+{
+	border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-left-width: 7px;
+    border-left-style: solid;
+    border-right: solid 7px transparent;
+    border-top: solid 7px transparent;
+}
+
+.collclubsports-page-wrapper a.primary-color {
+    font-weight: bold;
+    text-decoration: underline;
+    border-bottom: none !important;
+}
+
+.collclubsports-page-wrapper a:hover,
+.collclubsports-page-wrapper a:focus {
+	text-decoration: none;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.collclubsports-page-wrapper a.primary-color:hover,
+.collclubsports-page-wrapper a.primary-color:focus {
+	text-decoration: underline;
+}
+
+.collclubsports-page-wrapper .stats-table td,
+.collclubsports-page-wrapper .stats-table th{
+	text-align: center;
+	border-right: 1px solid #ededed;
+	padding: 3px;
+}
+
+.collclubsports-page-wrapper .stats-table td:first-child,
+.collclubsports-page-wrapper .stats-table th:first-child{
+	text-align: left;
+	border-left: 1px solid #ededed;
+}
+
+.collclubsports-page-wrapper .stats-table th {
+	line-height: 1.5em;
+	padding: 5px;
+	height: 40px;
+	color: #FFF;
+}
+
+.collclubsports-page-wrapper .stats-table th a {
+	color: #FFF !important;
+	border-bottom: 1px solid #FFF
+}
+
+.collclubsports-page-wrapper .stats-table td a {
+	text-decoration: underline;
+}
+
+.collclubsports-page-wrapper .stats-table {
+	border-top: 1px solid #ededed;
+	margin-bottom: 10px;
+}
+
+.collclubsports-page-wrapper .stats-table tbody{
+	display: none;
+}
+
+.collclubsports-page-wrapper .stats-table tbody.active{
+	display: table-row-group;
+}
+
+.collclubsports-page-wrapper .pagination-wrapper {
+	text-align: right;
+}
+
+.collclubsports-page-wrapper .pagination-wrapper .previous-button,
+.collclubsports-page-wrapper .pagination-wrapper .next-button {
+	border: none;
+	display: inline-block;
+}
+
+.collclubsports-page-wrapper .back-icon {
+	height: 20px;
+    width: 20px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwNnB4IiBoZWlnaHQ9IjMwNnB4IiB2aWV3Qm94PSIwIDAgMzA2IDMwNiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzA2IDMwNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9ImtleWJvYXJkLWFycm93LWxlZnQiPg0KCQk8cG9seWdvbiBmaWxsPSIjRkZGIiBwb2ludHM9IjI0Ny4zNSwyNzAuMyAxMzAuMDUsMTUzIDI0Ny4zNSwzNS43IDIxMS42NSwwIDU4LjY1LDE1MyAyMTEuNjUsMzA2IAkJIi8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=)
+	no-repeat
+    center center;
+    background-size: cover; 
+}
+
+.collclubsports-page-wrapper .next-icon {
+	height: 20px;
+    width: 20px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwNy4wNDZweCIgaGVpZ2h0PSIzMDcuMDQ2cHgiIHZpZXdCb3g9IjAgMCAzMDcuMDQ2IDMwNy4wNDYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMwNy4wNDYgMzA3LjA0NjsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGcgaWQ9Il94MzRfODQuX0ZvcndhcmQiPg0KCQk8Zz4NCgkJCTxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0yMzkuMDg3LDE0Mi40MjdMMTAxLjI1OSw0LjU5N2MtNi4xMzMtNi4xMjktMTYuMDczLTYuMTI5LTIyLjIwMywwTDY3Ljk1NSwxNS42OThjLTYuMTI5LDYuMTMzLTYuMTI5LDE2LjA3NiwwLDIyLjIwMQ0KCQkJCWwxMTUuNjIxLDExNS42MjZMNjcuOTU1LDI2OS4xMzVjLTYuMTI5LDYuMTM2LTYuMTI5LDE2LjA4NiwwLDIyLjIwOWwxMS4xMDEsMTEuMTAxYzYuMTMsNi4xMzYsMTYuMDcsNi4xMzYsMjIuMjAzLDANCgkJCQlsMTM3LjgyOC0xMzcuODMxQzI0NS4yMjIsMTU4LjQ4NywyNDUuMjIyLDE0OC41NTYsMjM5LjA4NywxNDIuNDI3eiIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=)
+	no-repeat
+    center center;
+    background-size: cover;
+}
+
+.collclubsports-page-wrapper .stats-table .sorter-wrapper {
+	position: relative;
+}
+
+.collclubsports-page-wrapper .stats-table .no-items-wrapper {
+	text-align: center !important;
+	font-style: italic;
+	padding: 15px;
+}
+
+.collclubsports-page-wrapper .arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 8px solid black;
+	border-bottom: 8px solid #FFF;
+	vertical-align: top;
+	line-height: 0px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.collclubsports-page-wrapper .arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #FFF;
+	vertical-align: bottom;
+	line-height: 0px;
+	margin: 5px;
+	display: inline-block;
+}
+
+
+.collclubsports-page-wrapper .tab-wrapper {
+
+}
+
+.collclubsports-page-wrapper .tab-button-wrapper {
+	margin-bottom: 1px;
+}
+
+.collclubsports-page-wrapper .tab-wrapper .tab-button-wrapper {
+	text-align: right;
+}
+
+.collclubsports-page-wrapper .tab-button-wrapper .button {
+	background: #CCC !important;
+	display: inline-block;
+	padding-bottom: 4px;
+}
+
+.collclubsports-page-wrapper .tab-wrapper .tab-body-wrapper {
+	border: 1px solid #CCC;
+	padding: 0px 10px;
+	overflow: auto;
+}
+
+.collclubsports-page-wrapper .tab-wrapper .tab-content-wrapper {
+	display: none;
+	position: relative;
+}
+
+.collclubsports-page-wrapper .tab-wrapper .tab-content-wrapper.active {
+	display: block;
+}
+
+.collclubsports-page-wrapper  .player-detail-wrapper {
+	position: relative;
+}
+
+.collclubsports-page-wrapper  .player-detail-wrapper .profile-wrapper {
+	max-width: 250px;
+	max-height: 250px;
+	display: inline-block;
+	margin: 25px 5px 5px 5px;
+	 border-radius: 5px; 
+	overflow: hidden;
+}
+
+.collclubsports-page-wrapper  .player-detail-wrapper .player-information-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 5px;
+}
+
+.collclubsports-page-wrapper  .player-detail-wrapper .player-information-wrapper label {
+	font-weight: normal;
+}
+
+.collclubsports-page-wrapper .player-detail-wrapper .profile-wrapper img {
+	width: 100%;
+	height: auto;
+}
+
+.collclubsports-component .no-image,
+.collclubsports-page-wrapper .no-image {
+	background: url('../../resources/noimage.png');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.collclubsports-page-wrapper .html-editor ul,
+.collclubsports-page-wrapper .html-editor ol{
+	padding-left: 35px;
+}
+
+.collclubsports-page-wrapper .html-editor ul{
+	list-style-type: disc;
+}
+
+.collclubsports-component.box-wrapper {
+    border-width: 1px;
+    border-style: solid;
+	margin: 10px 0px;
+}
+
+.collclubsports-component.box-wrapper .box-title {
+	padding: 20px 10px;
+	text-align: left;
+	font-size: 1.5em;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.collclubsports-component.box-wrapper .box-body-wrapper {
+	padding: 10px;
+    overflow: auto;
+}
+
+.collclubsports-page-wrapper .no-item {
+	font-style: italic;
+	text-align: center;
+	padding: 10px;
+}
+
+.collclubsports-pagination > * {
+	display: none;
+}
+
+.collclubsports-pagination > *.active {
+	display: block;
+}
+
+.searchsubmit {
+	opacity: 0;
+    position: absolute;
+    padding: 0 !important;
+    z-index: 10;
+    height: 35px;
+    width: 55px !important;
+}
+
+.search_btn {
+	position: absolute;
+    display: inline-block;
+    padding: 0 5px;
+    top: initial !important;
+    right: initial !important;
+}
+
+.header-social-icons .search_btn {
+	top: 8px !important;
+    right: -40px !important;
+}
+
+.header-social-icons .searchsubmit {
+	top: 8px !important;
+    right: -55px !important;
+}
+
+.collclubsports-page-wrapper .warn {
+	color: red;
+}
+
+

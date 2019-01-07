@@ -1,0 +1,153 @@
+.conference-page .player-option-wrapper {
+}
+
+.conference-page .player-option-wrapper .select-field,
+.conference-page .player-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.conference-page .player-option-wrapper .link {
+	margin-right: 0px;
+}
+.conference-page .player-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.conference-page .player-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.conference-page .conference-section-title {
+	border-bottom: 1px solid #CCC;
+	text-transform: uppercase;
+}
+
+.conference-page .conference-team-item-wrapper {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+    margin-right: 15px;
+}
+
+.conference-page .conference-team-item-wrapper .image,
+.conference-page .conference-team-item-wrapper .no-image {
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.conference-page .conference-info-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+
+.conference-page .conference-info-wrapper .conference-profile-logo-url,
+.conference-page .conference-info-wrapper .conference-player-week {
+	float: left;
+}
+
+.conference-page .conference-profile-logo-url {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 0 0 0;
+	overflow: hidden;
+}
+
+.conference-page .conference-profile-logo-url img {
+	width: 100%;
+}
+
+.conference-page .conference-info-wrapper .conference-player-week {
+    padding-left: 15px;
+}
+
+.conference-page .conference-coordinator {
+	display: inline-block;
+	padding: 10px 0 0 15px;
+	max-width: 430px;
+}
+
+.conference-page .conference-coordinator span.primary-color {
+	font-weight: bold;
+}
+
+.conference-page  .schedule-game-detail {
+	margin-bottom: 20px;
+}
+
+.conference-page .schedule-wrapper .schedule-item-wrapper {
+	border-bottom: 1px solid #E6E6E6;
+	padding: 10px 0px;
+}
+
+.conference-page .schedule-wrapper .no-schedule {
+	text-align: left;
+}
+
+.conference-page .schedule-wrapper .schedule-item-wrapper .schedule-team-name {
+	font-size: 1em;
+}
+
+.conference-page .left-right-section-wrapper{
+	display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding: 5px;
+    text-align: center;
+    min-width: 350px;
+}
+
+.conference-page .collclubsports-component.box-wrapper.schedule-box-wrapper {
+	width: 100%;
+	text-align: left;
+}
+
+.conference-page .conference-standing-wrapper {
+	min-height: 300px;
+}
+
+.conference-page .player-week-wrapper {
+	margin: 0 5px 10px 5px !important;
+}
+
+.conference-page .schedule-wrapper.box-body-wrapper {
+	max-height: 500px;
+}
+
+.conference-page .conference-standing-wrapper.box-body-wrapper table th,
+.conference-page .conference-standing-wrapper.box-body-wrapper table td {
+	text-align: center;
+    padding: 2px 5px;
+}
+
+.conference-page .conference-standing-wrapper.box-body-wrapper table th:first-child,
+.conference-page .conference-standing-wrapper.box-body-wrapper table td:first-child,
+.conference-page .conference-standing-wrapper.box-body-wrapper table th.is-align-left {
+	text-align: left;
+    min-width: 100px;
+    padding-right: 5px;
+}
+
+.conference-page .conference-standing-wrapper.box-body-wrapper table th.has-padding-right {
+	padding-right: 10px;
+}
+
+div.placeholder{
+	font-style: italic;
+    text-align: center;
+}
+div.placeholder.result{
+    font-style: normal;
+}
+
+.conference-page .schedule-wrapper .warn {
+	color: red;
+}

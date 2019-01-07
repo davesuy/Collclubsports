@@ -1,0 +1,108 @@
+.player-list-page .player-option-wrapper {
+}
+
+.player-list-page .player-option-wrapper .select-field,
+.player-list-page .player-option-wrapper .link  {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.player-list-page .player-option-wrapper .link {
+	margin-right: 0px;
+}
+.player-list-page .player-option-wrapper .select-field label {
+	font-weight: normal;
+}
+
+.player-list-page .player-option-wrapper .select-field select {
+	width: 200px;
+	background-color: #666666;
+    color: #FFF;
+    border-radius: 1px;
+}
+
+.collclubsports-component.player-week-wrapper {
+	width: 290px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.collclubsports-component.player-week-wrapper.ads-wrapper img{
+	width: 100%;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-body{
+	height: 400px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-none-selected {
+	text-align: center;
+    margin-top: 120px;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper {
+	height: 150px;
+    overflow: hidden;
+    padding-top: 10px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-profile-wrapper .no-image,
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-profile-wrapper img {
+	width: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-left: none;
+	height: auto;
+	border-bottom: none;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-profile-wrapper .no-image {
+	width: 140px;
+	height: 140px;
+	border-bottom: none;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-team-wrapper .no-image,
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-team-wrapper img {
+	border: none;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .player-team-wrapper img{
+    max-height: 140px;
+    margin-left: 10px;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper img,
+.collclubsports-component.player-week-wrapper .player-week-image-wrapper .no-image  {
+    height: auto;
+    width: 114px;
+	border: 1px solid #CCC;
+	vertical-align: top;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-name {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-team {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-body p {
+	margin: 10px;
+}
+
+.collclubsports-component.player-week-wrapper .player-week-body p.notes {
+    max-height: 140px;
+    overflow-y: auto;
+}

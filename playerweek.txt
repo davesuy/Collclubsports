@@ -1,0 +1,18 @@
+Baseball & Softball:
+1 - Player
+5 - Pitching
+
+Basketball
+1 - Player
+2 - Player2
+
+Football
+3 - Offensive
+4 - Defensive
+
+TrackAndField
+6 - Male
+7 - Female
+
+
+
